@@ -3,7 +3,7 @@ services:
 
   web:
     build: ./flask/
-    image: image_flask
+    image: flask_champs
     ports:
       - "5000:5000"
     depends_on:
@@ -14,7 +14,7 @@ services:
     image: mysql:latest
     restart: always
     ports:
-      - "3306:3306"
+      - "3307:3306"
     volumes:
       - ./mysql:/docker-entrypoint-initdb.d/:ro
     environment:
