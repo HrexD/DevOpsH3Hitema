@@ -3,7 +3,7 @@ services:
 
   web:
     build: ./flask/
-    image: flask_image
+    image: image_flask
     ports:
       - "5000:5000"
     depends_on:
@@ -14,10 +14,10 @@ services:
     image: mysql:latest
     restart: always
     ports:
-      - "3307:3306"
+      - "3306:3306"
     volumes:
       - ./mysql:/docker-entrypoint-initdb.d/:ro
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_USER: user
-      MYSQL_PASSWORD: user
+      MYSQL_PASSWORD: password
