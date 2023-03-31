@@ -22,7 +22,7 @@ def index():
    Executed_DATA = CS.fetchall()  # fetch all the results of the query and store them in a variable
    print(Executed_DATA)  # print the results to the console
    # return str(Executed_DATA)
-   return render_template('champs.html', champs=Executed_DATA)  # render the champs.html template with the 'fruits' variable set to the results of the query
+   return render_template('champs.html', champs=Executed_DATA)  # render the champs.html template with the 'champs' variable set to the results of the query
 
 if __name__== "__main__":
    app.run('0.0.0.0',port=5000)
