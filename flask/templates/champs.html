@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Liste des Champions</title>
+</head>
+<body>
+    <h1>Liste des champions</h1>
+    <ul>
+        {% for champ in champs %}
+            <li>{{ champ.nom }} - {{ champ.poste }}-{{ champ.region }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
