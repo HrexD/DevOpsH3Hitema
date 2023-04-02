@@ -13,7 +13,7 @@ mysql = MySQL(app)  # create a new instance of the MySQL object using the Flask 
 
 @app.route("/")  # define the root route of the Flask app
 def hello_world():
-   return "<h1>Don'd dell me what do do</h1>"  # return a greeting message as HTML
+   return '<h1>Don\'d dell me what do do</h1> <button id="myButton">Aller à la page suivante</button>'  # return a greeting message as HTML
 
 @app.route('/champs')  # define a new route for displaying champs
 def index():
