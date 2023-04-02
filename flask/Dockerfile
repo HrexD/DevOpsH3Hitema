@@ -12,6 +12,7 @@ RUN apt-get update -y && apt-get install -y python3 python3-pip
 
 # Copy the app.py file and templates folder to the image
 COPY templates /app/templates
+
 COPY app.py /app
 
 # Expose port 5000

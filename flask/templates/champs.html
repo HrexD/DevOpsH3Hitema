@@ -7,6 +7,7 @@
     <h1>Liste des champions</h1>
     <ul>
         {% for champ in champs %}
+       <!-- <img src="images/{{ champ.nom }}.jpg" alt="Image de {{ champ.nom }}" width="100" height="100" />-->
             <li>{{ champ.nom }} - {{ champ.poste }} - {{ champ.especes }} - {{ champ.region }}</li>
             <br/>
             
