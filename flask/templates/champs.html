@@ -9,6 +9,7 @@
         {% for champ in champs %}
             <li>{{ champ.nom }} - {{ champ.poste }} - {{ champ.especes }} - {{ champ.region }}</li>
             <br/>
+            <img src="{{ url_for('static', filename='images/' + champ.image) }}" alt="Image du champion">
         {% endfor %}
     </ul>
 </body>

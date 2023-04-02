@@ -42,3 +42,6 @@ jobs:
 
       - name: Push Docker image
         run: docker push ${{ secrets.DOCKER_USERNAME }}/flask_champs:latest
+
+      - name: Push Docker image => mysql
+        run: docker push ${{ secrets.DOCKER_USERNAME }}/mysql_image:latest
