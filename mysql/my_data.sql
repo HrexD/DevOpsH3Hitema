@@ -1,28 +1,4 @@
-/*CREATE DATABASE sampledb;
-USE sampledb;
 
-CREATE TABLE champs (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    nom VARCHAR(50) NOT NULL,
-    region VARCHAR(20) NOT NULL,
-    poste VARCHAR(20) NOT NULL
-);
-
-INSERT INTO champs (nom, region, poste) VALUES
-    ('Jhin', 'Ionia', 'ADC'),
-    ('Shen', 'Ionia', 'Top'),
-    ('Zoe', 'Targon', 'Mid'),
-    ('Senna', 'Noxus', 'Support'),
-    ('Yone', 'Shurima', 'Mid'),
-    ('Zilean','Runeterra','Support'),
-    ('Ziggs','Bandle City','Mid'),
-    ('Zed','Ionia','Mid'),
-    ('Yuumi','Bandle City','Support'),
-    ('Xayah','Ionia','ADC'),
-    ('Xerath','Shurima','Mid'),
-    ('Wukong','Ionia','Jungle'),
-    ('Vi','Piltover','Jungle');
-*/
 CREATE DATABASE sampledb;
 USE sampledb;
 
@@ -38,7 +14,6 @@ INSERT INTO champs (nom, region, especes, poste) VALUES
     ('Aatrox', 'Runeterra','Darkin','Top'),
     ('Ahri', 'Ionia', 'Vastaya', 'Middle'),
     ('Akali', 'Ionia', 'Humaine', 'Middle' ),
-    ('Akshan', 'Shurima', 'Humaine', 'Top'),
     ('Alistar', 'Runeterra', 'Minotaure', 'Support'),
     ('Amumu', 'Shurima', 'Momie', 'Jungle'),
     ('Anivia', 'Freljord', 'Esprit Divin', 'Middle'),
@@ -121,7 +96,7 @@ INSERT INTO champs (nom, region, especes, poste) VALUES
     ('Nautilus', 'Bilgewater', 'Humaine', 'Top'),
     ('Neeko', 'Ionia', 'Humaine', 'Middle'),
     ('Nidalee', 'Bandle City', 'Humaine', 'Jungle'),
-    ('Nilah', 'Runeterra', 'Humaine', 'Bottom')
+    ('Nilah', 'Runeterra', 'Humaine', 'Bottom'),
     ('Nocturne', 'Shadow Isles', 'Humaine', 'Jungle'),
     ('Nunu', 'Freljord', 'Yordle', 'Jungle'),
     ('Olaf', 'Freljord', 'Humaine', 'Top'),
@@ -135,8 +110,8 @@ INSERT INTO champs (nom, region, especes, poste) VALUES
     ('Rakan', 'Ionia', 'Humaine', 'Support'),
     ('Rammus', 'Runeterra', 'Humaine', 'Jungle'),
     ('Rek_sai', 'Void', 'Humaine', 'Jungle'),
-    ('Rell', 'Runeterra', 'Humaine', 'Support')
-    ('Renata', 'Runeterra', 'Humaine', 'support')
+    ('Rell', 'Runeterra', 'Humaine', 'Support'),
+    ('Renata', 'Runeterra', 'Humaine', 'support'),
     ('Renekton', 'Shurima', 'Humaine', 'Top'),
     ('Rengar', 'Bandle City', 'Humaine', 'Jungle'),
     ('Riven', 'Noxus', 'Humaine', 'Top'),
@@ -192,7 +167,7 @@ INSERT INTO champs (nom, region, especes, poste) VALUES
     ('Yuumi', 'Bandle City', 'Chat', 'Support'),
     ('Zac', 'Bandle City', 'Humaine', 'Jungle'),
     ('Zed', 'Ionia', 'Humaine', 'Middle'),
-    ('Zeri', 'Runeterra', 'Humaine', 'Bottom')
+    ('Zeri', 'Runeterra', 'Humaine', 'Bottom'),
     ('Ziggs', 'Bandle City', 'Humaine', 'Middle'),
     ('Zilean', 'Bandle City', 'Humaine', 'Support'),
     ('Zoe', 'Targon', 'Humaine', 'Middle'),
